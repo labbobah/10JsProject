@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+    
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    color: beige;
+}
+
+body{
+    background-image: url("./image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: coral;
+}
+
+.container-count{
+    display: flex ;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.text{
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+span{
+    font-size: 1.2rem;
+}

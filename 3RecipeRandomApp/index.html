@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+        <title> Random Recipe App </title>
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="nav-bar">
+                <input type="text" id="input-search"/>
+                <button id="search"> <i class="fas fa-search"></i> </button>
+            </div>    
+
+            <div class="favorite-container">
+                <h2> Favorite Meal </h2>
+                <ul class="favorite-meal" id="favorite-meal">
+                    <!-- <li>
+                        <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="lime" />
+                        <span> Lime </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg" alt="Quiche" />
+                        <span> Quiche </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg" alt="Burger" />
+                        <span> Burger </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/ingredients/Lime.png" alt="lime" />
+                        <span> Lime </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg" alt="Quiche" />
+                        <span> Quiche </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg" alt="Burger" />
+                        <span> Burger </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg" alt="Quiche" />
+                        <span> Quiche </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg" alt="Burger" />
+                        <span> Burger </span>
+                    </li>
+                    <li>
+                        <img src="https://www.themealdb.com/images/media/meals/ewcikl1614348364.jpg" alt="Burger" />
+                        <span> Burger </span>
+                    </li> -->
+                </ul>
+            </div> 
+
+            <div class="recipes" id="recipes">
+                <!-- <div class="recipe">
+                    <div class="recipe-card">
+                        <span class="random"> Random Recipe </span>
+                        <img src="https://www.themealdb.com/images/media/meals/g373701551450225.jpg" alt="random" />
+                        <span>  </span>
+                    </div>
+                    <div class="recipe-modal">
+                        <h4> Viande </h4>
+                        <button class="btn-like active">
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="modal-info-container hidden" id="modal-popup">
+            <div class="modal" id="modal">
+                <button class="close-modal" id="close-modal">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div id="recipe-info">
+                <!--   <h1> Meal Title </h1>
+                    <img src="https://www.themealdb.com/images/media/meals/qqpwsy1511796276.jpg" alt="Quiche" />
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+                        book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                        unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+                        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <h2> ingredients </h2>
+                    <ul>
+                        <li> 0 </li>
+                        <li> 1 </li>
+                        <li> 2 </li>
+                        <li> 3 </li>
+                        <li> 4 </li>
+                    </ul> -->
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
